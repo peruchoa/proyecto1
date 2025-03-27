@@ -110,5 +110,7 @@ h6, .h6
 .Lucida San 12
 {
    text-decoration: none;
+   color: #000000;
+   --color: #000000;
    background-color: transparent;
 }
