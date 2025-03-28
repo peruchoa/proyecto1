@@ -31,7 +31,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 354px;
+   width: 342px;
    height: auto;
 }
 #wb_Image1
@@ -49,7 +49,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 354px;
+   width: 343px;
    height: auto;
 }
 #wb_Image9
@@ -67,7 +67,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 360px;
+   width: 344px;
    height: auto;
 }
 #wb_FlexContainer1
@@ -83,7 +83,7 @@ body
 {
    display: flex;
    position: relative;
-   height: 5141px;
+   height: 4937px;
    padding: 10px 10px 10px 10px;
    flex-direction: column;
    flex-wrap: wrap;
@@ -113,7 +113,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 350px;
+   width: 342px;
    height: auto;
 }
 #wb_Image3
@@ -131,7 +131,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 347px;
+   width: 343px;
    height: auto;
 }
 #wb_Image6
@@ -149,7 +149,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 361px;
+   width: 343px;
    height: auto;
 }
 #wb_Image7
@@ -185,7 +185,7 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 360px;
+   width: 344px;
    height: auto;
 }
 #wb_Image8
@@ -421,21 +421,4 @@ body
 #Label1:focus
 {
    outline: 0;
-}
-#wb_Text1 
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
 }
