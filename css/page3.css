@@ -70,15 +70,6 @@ body
    width: 360px;
    height: auto;
 }
-#wb_FlexContainer1
-{
-   background-color: #7CFC00;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   box-sizing: border-box;
-   position: relative;
-}
 #FlexContainer1
 {
    display: flex;
@@ -86,15 +77,15 @@ body
    height: 5141px;
    padding: 10px 10px 10px 10px;
    flex-direction: column;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    justify-content: flex-start;
    align-items: flex-start;
    align-content: flex-start;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 360px;
+   margin: 0;
+   background-color: #7CFC00;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
    box-sizing: border-box;
    font-size: 0;
 }
@@ -226,9 +217,11 @@ body
 }
 #wb_Text4 
 {
+   height: 54px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
+   overflow-y: auto;
    margin: 0;
 }
 #wb_Text4 div
