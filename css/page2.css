@@ -83,7 +83,7 @@ body
 {
    display: flex;
    position: relative;
-   height: 4937px;
+   height: 4962px;
    padding: 10px 10px 10px 10px;
    flex-direction: column;
    flex-wrap: wrap;
@@ -374,7 +374,7 @@ body
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   padding: 3px 0 1px 0;
+   padding: 0;
    margin: 0;
    text-align: left;
 }
