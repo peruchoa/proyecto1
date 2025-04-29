@@ -1,0 +1,153 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#FlexGrid1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+#FlexGrid1-grid
+{
+   display: grid;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 200px;
+   width: 100%;
+   font-size: 0;
+   grid-column-gap: 3px;
+   grid-row-gap: 5px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 100px auto 100px;
+   grid-template-areas:
+      "header ."
+      "nav item-0"
+      "footer .";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: flex;
+   grid-area: nav;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .item-0
+{
+   display: flex;
+   grid-area: item-0;
+   background-color: #FF0000;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   grid-area: footer;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+#wb_Image2
+{
+   margin: 0;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 100%;
+   align-self: auto;
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: auto;
+}
+#wb_Image1
+{
+   margin: 0;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 100%;
+   align-self: auto;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 100%;
+   height: auto;
+}
+#wb_Image3
+{
+   margin: 0;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 96px;
+   height: auto;
+}

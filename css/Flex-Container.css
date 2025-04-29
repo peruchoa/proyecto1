@@ -1,0 +1,29 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#FlexContainer1
+{
+   display: flex;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
+   margin: 0;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+   box-sizing: border-box;
+   font-size: 0;
+}
