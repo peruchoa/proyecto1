@@ -46,7 +46,7 @@ body
 }
 #wb_Image1
 {
-   margin: 0;
+   margin: 0 0 4px 0 ;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
@@ -82,7 +82,7 @@ body
 }
 #wb_Image3
 {
-   margin: 0;
+   margin: 0 0 4px 0 ;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
@@ -100,7 +100,7 @@ body
 }
 #wb_Image4
 {
-   margin: 4px 0 0 0 ;
+   margin: 4px 0 4px 0 ;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
@@ -118,7 +118,7 @@ body
 }
 #wb_Image5
 {
-   margin: 4px 0 0 0 ;
+   margin: 4px 0 4px 0 ;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
@@ -236,4 +236,113 @@ body
 #wb_Text6 div
 {
    text-align: left;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+}
+#HorizontalLine2
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+   box-shadow: 4px 0px 0px #000000;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
+#HorizontalLine1
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+   box-shadow: 4px 0px 0px #000000;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
+#HorizontalLine3
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+   box-shadow: 4px 0px 0px #000000;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
+#HorizontalLine4
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+   box-shadow: 4px 0px 0px #000000;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
+#HorizontalLine5
+{
+   border-color: #000000;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+   box-shadow: 4px 0px 0px #000000;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
 }
