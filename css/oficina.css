@@ -9,6 +9,15 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_FlexContainer1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+   box-sizing: border-box;
+   position: relative;
+}
 #FlexContainer1
 {
    display: flex;
@@ -19,11 +28,11 @@ body
    justify-content: space-around;
    align-items: flex-start;
    align-content: flex-start;
-   margin: 0;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #DEE2E6;
-   border-radius: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 360px;
    box-sizing: border-box;
    font-size: 0;
 }
@@ -70,7 +79,7 @@ body
 {
    text-align: left;
 }
-#wb_img1
+#wb_Armario_metalico_azul
 {
    margin: 0 0 15px 0 ;
    flex-grow: 0;
@@ -78,7 +87,7 @@ body
    align-self: auto;
    vertical-align: top;
 }
-#img1
+#Armario_metalico_azul
 {
    border: 0px solid #000000;
    border-radius: 0px;
