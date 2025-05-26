@@ -25,7 +25,7 @@ body
    padding: 10px 10px 10px 10px;
    flex-direction: column;
    flex-wrap: nowrap;
-   justify-content: space-around;
+   justify-content: center;
    align-items: flex-start;
    align-content: flex-start;
    margin-top: 0px;
@@ -66,13 +66,13 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 54px;
+   height: 81px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
    overflow-y: hidden;
    padding: 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt1 div
@@ -138,11 +138,9 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 89px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   overflow-y: hidden;
    padding: 3px 0 1px 0;
    margin: 0;
    text-align: left;
@@ -175,12 +173,12 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 54px;
+   height: 71px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
    overflow-y: hidden;
-   padding: 3px 0 7px 0;
+   padding: 3px 0 0 0;
    margin: 0;
    text-align: left;
 }
@@ -212,13 +210,11 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 89px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   overflow-y: hidden;
    padding: 3px 0 1px 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt5 div
@@ -249,13 +245,11 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 71px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   overflow-y: hidden;
    padding: 3px 0 1px 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt6 div
@@ -286,13 +280,11 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 54px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   overflow-y: hidden;
    padding: 3px 0 1px 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt7 div
@@ -323,13 +315,11 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 71px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
-   overflow-y: hidden;
    padding: 0 0 1px 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt8 div
@@ -364,7 +354,7 @@ body
    flex-shrink: 0;
    align-self: auto;
    padding: 3px 0 0 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt9 div
@@ -395,13 +385,13 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   height: 68px;
+   height: 81px;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
    overflow-y: hidden;
    padding: 3px 0 0 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_txt10 div
@@ -440,176 +430,6 @@ body
    text-align: center;
 }
 #wb_Text13 div
-{
-   text-align: center;
-}
-#wb_Text1 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text1 div
-{
-   text-align: center;
-}
-#wb_Text2 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text2 div
-{
-   text-align: center;
-}
-#wb_Text3 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text3 div
-{
-   text-align: center;
-}
-#wb_Text4 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text4 div
-{
-   text-align: center;
-}
-#wb_Text5 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
-}
-#wb_Text6 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text6 div
-{
-   text-align: center;
-}
-#wb_Text7 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text7 div
-{
-   text-align: center;
-}
-#wb_Text8 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text8 div
-{
-   text-align: center;
-}
-#wb_Text9 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text9 div
-{
-   text-align: center;
-}
-#wb_Text10 
-{
-   background-color: #00CED1;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   padding: 0;
-   margin: 0 0 4px 0 ;
-   text-align: center;
-}
-#wb_Text10 div
 {
    text-align: center;
 }
