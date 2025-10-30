@@ -433,3 +433,13 @@ body
 {
    text-align: center;
 }
+#InlineFrame1
+{
+   box-sizing: border-box;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   margin: 0;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+}
